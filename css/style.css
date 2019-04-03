@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ p {
 .container {
   background-color: white;
   /* height: 100vh; */
-  margin: 0 auto;
+  /* margin: 0 auto;
   width: 90%;
 }
 
@@ -37,7 +37,7 @@ section {
   .container {
     background-color: white;
     /* height: 100vh; */
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 98rem;
   }
-}
+} */
