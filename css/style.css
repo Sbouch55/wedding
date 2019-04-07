@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-@import
-url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
-@import
-url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
-
 body background {
   height: 200%;
   background-position: center;
@@ -22,7 +17,7 @@ body background {
   cursor: pointer;
   display: inline-block;
   font-size: 2.2rem;
-  font-family: 'open sans hebrew condensed';
+  font-family: 'open sans condensed';
   /* margin-left: 3rem; */
   padding: 1rem 3rem;
   text-align: center;
@@ -41,7 +36,7 @@ body background {
 }
 
 footer {
-  padding: 26rem;
+  padding: 18rem;
 }
 
 html {
@@ -50,7 +45,7 @@ html {
 
 h1 {
   color: #00331D;
-  font-size: 8rem;
+  font-size: 7rem;
   font-family: "poiret one";
 }
 
@@ -62,16 +57,22 @@ h2 {
 
 h3 {
   color: #00331D;
-  font-size: 7rem;
+  font-size: 5.6rem;
   font-family: "poiret one";
 }
 
+h4 {
+  color: black;
+  font-size: 3.6rem;
+  font-family: "poiret one";
+}
 
 .container {
   background-color: none;
   height: 100vh;
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
+  line-height: 1.6;
 }
 
 nav a{
@@ -100,7 +101,8 @@ nav img {
 
 p {
   color: black;
-  font-size: 1.6rem;
+  font-size: 3rem;
+  font-family: "Open Sans Condensed";
   line-height: 1.3;
   margin-top: .5rem;
 }
@@ -109,22 +111,24 @@ section {
   background-color: none;
   color: #fff;
   height: 60rem;
-  margin-top: 1rem;
-  padding: 10rem 0;
-  margin: 4rem;
+  margin-top: 2rem;
+  padding: 10rem 2rem;
+  margin: 2rem;
+  width: 100%;
 }
 
 section.cases p {
   color: #9A9A9A;
-  font-family: 'Open Sans Hebrew Condensed';
+  font-family: 'Open Sans Condensed';
   font-size: 3rem;
-  font-weight: 400;
-
+  font-weight: 100;
+  line-height: 1.3rem;
 }
 
 section.hero {
 padding: 10rem;
-padding-top: 30rem;
+padding-top: 20rem;
+line-height: 2rem;
 }
 
 section.hero img {
