@@ -1,33 +1,139 @@
-/* * {
+* {
   box-sizing: border-box;
+}
+
+@import
+url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import
+url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+
+body background {
+  height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  background-color: #00331D;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.2rem;
+  font-family: 'open sans hebrew condensed';
+  /* margin-left: 3rem; */
+  padding: 1rem 3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: #00331D;
+  border-radius: 6px;
+  border-style: solid;
+  display: inline-block;
+  font-size: 2.2rem;
+  padding: 1rem 3rem;
+  border-color: #00331D
+}
+
+footer {
+  padding: 26rem;
 }
 
 html {
   font-size: 10px;
 }
 
+h1 {
+  color: #00331D;
+  font-size: 8rem;
+  font-family: "poiret one";
+}
+
+h2 {
+  color: #00331D;
+  font-size: 4rem;
+  font-family: "poiret one";
+}
+
+h3 {
+  color: #00331D;
+  font-size: 7rem;
+  font-family: "poiret one";
+}
+
+
+.container {
+  background-color: none;
+  height: 100vh;
+  margin: 0 auto;
+  width: 95%;
+}
+
+nav a{
+  display: block;
+  color: #00331D;
+  float: right;
+  font-family: "poiret one";
+  font-size: 3em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#ADD9C8;
+  text-decoration: underline;
+}
+
+nav img {
+  display: block;
+  float: left;
+  text-decoration: none;
+  width:auto;
+  height:20em;
+}
+
+
 p {
+  color: black;
   font-size: 1.6rem;
   line-height: 1.3;
   margin-top: .5rem;
 }
 
-.container {
-  background-color: white;
-  /* height: 100vh; */
-  /* margin: 0 auto;
-  width: 90%;
-}
-
 section {
-  background-color: #0A0A29;
+  background-color: none;
   color: #fff;
-  height: 20rem;
+  height: 60rem;
   margin-top: 1rem;
   padding: 10rem 0;
+  margin: 4rem;
 }
 
-@media screen and (min-width: 760px){
+section.cases p {
+  color: #9A9A9A;
+  font-family: 'Open Sans Hebrew Condensed';
+  font-size: 3rem;
+  font-weight: 400;
+
+}
+
+section.hero {
+padding: 10rem;
+padding-top: 30rem;
+}
+
+section.hero img {
+  display: block;
+  margin:auto;
+  margin-top: 4rem;
+}
+
+/* @media screen and (min-width: 760px){
   .container {
     width: 70rem;
   }
@@ -36,8 +142,8 @@ section {
 @media screen and (min-width: 1000px){
   .container {
     background-color: white;
-    /* height: 100vh; */
-    /* margin: 0 auto;
+    height: 100vh;
+    margin: 0 auto;
     width: 98rem;
   }
 } */
