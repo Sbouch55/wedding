@@ -31,12 +31,27 @@ body background {
   border-style: solid;
   display: inline-block;
   font-size: 2.2rem;
+  font-family: 'open sans condensed';
   padding: 1rem 3rem;
   border-color: #00331D
 }
 
+.container {
+  background-color: none;
+  height: 100vh;
+  margin: 0 auto;
+  width: 95%;
+}
+
 footer {
-  padding: 18rem;
+  padding: 26rem;
+}
+
+footer p {
+  font-size: 3rem;
+  color: #00331D;
+  font-family: 'open sans condensed';
+  font-weight: 100;
 }
 
 html {
@@ -45,7 +60,7 @@ html {
 
 h1 {
   color: #00331D;
-  font-size: 7rem;
+  font-size: 8rem;
   font-family: "poiret one";
 }
 
@@ -57,7 +72,7 @@ h2 {
 
 h3 {
   color: #00331D;
-  font-size: 5.6rem;
+  font-size: 7rem;
   font-family: "poiret one";
 }
 
@@ -65,14 +80,6 @@ h4 {
   color: black;
   font-size: 3.6rem;
   font-family: "poiret one";
-}
-
-.container {
-  background-color: none;
-  height: 100vh;
-  margin: 0 auto;
-  width: 100%;
-  line-height: 1.6;
 }
 
 nav a{
@@ -102,18 +109,26 @@ nav img {
 p {
   color: black;
   font-size: 3rem;
-  font-family: "Open Sans Condensed";
   line-height: 1.3;
   margin-top: .5rem;
+  font-weight: 100;
+  font-family: "open sans condensed";
 }
 
 section {
   background-color: none;
   color: #fff;
   height: 60rem;
-  margin-top: 2rem;
-  padding: 10rem 2rem;
-  margin: 2rem;
+  margin-top: 1rem;
+  padding: 10rem 0;
+  margin: 4rem;
+}
+
+section.cases {
+  width: 50%;
+}
+
+section.cases img {
   width: 100%;
 }
 
@@ -122,13 +137,11 @@ section.cases p {
   font-family: 'Open Sans Condensed';
   font-size: 3rem;
   font-weight: 100;
-  line-height: 1.3rem;
 }
 
 section.hero {
 padding: 10rem;
-padding-top: 20rem;
-line-height: 2rem;
+padding-top: 30rem;
 }
 
 section.hero img {
@@ -136,8 +149,8 @@ section.hero img {
   margin:auto;
   margin-top: 4rem;
 }
-
-/* @media screen and (min-width: 760px){
+/*
+@media screen and (min-width: 760px){
   .container {
     width: 70rem;
   }
@@ -145,7 +158,7 @@ section.hero img {
 
 @media screen and (min-width: 1000px){
   .container {
-    background-color: white;
+    background-color: none;
     height: 100vh;
     margin: 0 auto;
     width: 98rem;

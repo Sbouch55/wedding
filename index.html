@@ -6,26 +6,31 @@
     <title>Portfolio | Sydney Bouchard</title>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body background="portfolio/Images/green6.jpg">
-    <div class="container">
+    <main class="container">
       <nav>
         <!-- <a href="index.html"><img class="image" src="portfolio/Images/new-syd-logo.png"></a> -->
-        <img src="portfolio/Images/new-syd-logo.png">
-        <a href="project.html">Projects</a>
-        <a href="project.html">About</a>
-        <a href="project.html">Resume</a>
-        <a href="project.html">Contact</a>
+        <!-- <a href="index.html" class="logo"> -->
+          <img src="portfolio/Images/new-syd-logo.png">
+        <!-- </a> -->
+        <ul>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="project.html">About</a></li>
+          <li><a href="project.html">Resume</a></li>
+          <li><a href="project.html">Contact</a></li>
+        </ul>
       </nav>
       <section class="hero">
         <h1>HELLO</h1>
         <h1>I’M SYDNEY</h1>
         <h2>I am a Philadelphia based UX Designer building on</h2>
-        <h2>my marketing and media background to</h2>
-        <h2>create inventive, user-friendly experiences.</h2>
-        <img src="portfolio/Images/Down arrow.png" width="50" height="25">
+        <h2>my marketing and media background to create</h2>
+        <h2>inventive, user-friendly experiences.</h2>
+        <img src="portfolio/Images/arrow.png" width="50" height="25">
       </section>
       <section class="cases">
         <div class="cases1">
@@ -37,18 +42,24 @@
           <p>and Adobe Photoshop.</p>
           <a href="project.html" class="button">Case Study</a>
           <img src="portfolio/Images/computer.png">
-          <button type="button" onclick="">Case Study</button>
-        </div>
+        </main>
       </section>
       <footer>
         <p>I hope you have enjoyed getting to know me and my work!
           I would love to connect with you:</p>
-        <img src="portfolio/Images/email copy.png" width="50" height="50">
-        <img src="portfolio/Images/linkedin copy.png" width="50" height="50">
-        <img src="portfolio/Images/insta copy.png" width="50" height="50">
-        <img src="portfolio/Images/twitter copy.png" width="50" height="50">
+        <a href="mailto: abc@example.com" class="foot">
+          <img src="portfolio/Images/emailcopy.png" width="50" height="50">
+        </a>
+        <a href="https://www.linkedin.com/in/sydney-bouchard/" class="foot">
+          <img src="portfolio/Images/linkedincopy.png" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com/sydneybouchard/" class="foot">
+          <img src="portfolio/Images/instacopy.png" width="50" height="50">
+        </a>
+        <a href="https://twitter.com/SydneyBouch" class="foot">
+        <img src="portfolio/Images/twittercopy.png" width="50" height="50">
+        </a>
       </footer>
     </div>
   </body>
-
 </html>
