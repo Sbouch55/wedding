@@ -2,11 +2,18 @@
   box-sizing: border-box;
 }
 
+body {
+ background-image: url("../portfolio/Images/green6.jpg");
+}
+
+}
+
 body background {
   height: 200%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-image: url("portfolio/images/green6.jpg");  */
 }
 
 .button {
@@ -27,14 +34,18 @@ body background {
 .button:hover {
   background-color: white;
   color: #00331D;
-  border-radius: 6px;
+  border-color: #00331D;
   border-style: solid;
-  display: inline-block;
-  font-size: 2.2rem;
-  font-family: 'open sans condensed';
-  padding: 1rem 3rem;
-  border-color: #00331D
+  padding: .72rem 2.72rem;
+  transition: 0.5s;
 }
+
+border-radius: 6px;
+border-style: solid;
+display: inline-block;
+font-size: 2.2rem;
+font-family: 'open sans condensed';
+padding: 1rem 3rem;
 
 .container {
   background-color: none;
@@ -82,6 +93,27 @@ h4 {
   font-family: "poiret one";
 }
 
+h5 {
+  font-size: 4.4rem;
+  font-family: "poiret one";
+}
+
+h6 {
+  color: #9a9a9a;
+  font-size: 3.2rem;
+  font-family: "poiret one";
+}
+
+h7 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.logohome {
+    float: left;
+    margin-top: -80px;
+}
+
 nav a{
   display: block;
   color: #00331D;
@@ -103,6 +135,9 @@ nav img {
   text-decoration: none;
   width:auto;
   height:20em;
+  float: left;
+  width: 200px;
+  height: 260px;
 }
 
 
@@ -139,6 +174,13 @@ section.cases p {
   font-weight: 100;
 }
 
+section.compet ul{
+  color: #00331D;
+  font-size: 3rem;
+  font-family: 'open sans condensed';
+  font-weight: bold;
+}
+
 section.hero {
 padding: 10rem;
 padding-top: 30rem;
@@ -149,6 +191,43 @@ section.hero img {
   margin:auto;
   margin-top: 4rem;
 }
+
+section.herokeeps {
+padding: 10rem;
+padding-top: 30rem;
+}
+
+section.personas ul {
+  color: black;
+  font-size: 3rem;
+  font-family: 'open sans condensed';
+}
+
+section.roles ul {
+  color: black;
+  font-size: 3.4rem;
+  font-family: 'poiret one';
+}
+
+section.roles ul li {
+  color: #9a9a9a;
+  font-size: 3rem;
+  font-family: 'open sans condensed';
+}
+
+section.survey ul {
+  color: black;
+  font-size: 3rem;
+  font-family: 'open sans condensed';
+}
+
+section.stories ul {
+  color: black;
+  font-size: 3rem;
+  font-family: 'open sans condensed';
+}
+
+
 /*
 @media screen and (min-width: 760px){
   .container {
