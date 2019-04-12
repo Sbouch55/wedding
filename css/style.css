@@ -6,14 +6,24 @@ body {
  background-image: url("../portfolio/Images/green6.jpg");
 }
 
+
+#box1 {
+  border: 1px solid;
+  padding: 20px;
+  color: #9a9a9a;
+  width: 30%;
+  text-align: center;
+  float: left;
+  margin: 10px;
 }
 
-body background {
-  height: 200%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-image: url("portfolio/images/green6.jpg");  */
+#box2 {
+  background-color: white;
+  border: 1px solid;
+  padding: 14px;
+  color: #9a9a9a;
+  width: 100%;
+  margin-top: 10rem;
 }
 
 .button {
@@ -38,14 +48,8 @@ body background {
   border-style: solid;
   padding: .72rem 2.72rem;
   transition: 0.5s;
+  box-shadow: 6px 10px 8px #888888;
 }
-
-border-radius: 6px;
-border-style: solid;
-display: inline-block;
-font-size: 2.2rem;
-font-family: 'open sans condensed';
-padding: 1rem 3rem;
 
 .container {
   background-color: none;
@@ -55,7 +59,7 @@ padding: 1rem 3rem;
 }
 
 footer {
-  padding: 26rem;
+  padding: 10rem;
 }
 
 footer p {
@@ -63,6 +67,18 @@ footer p {
   color: #00331D;
   font-family: 'open sans condensed';
   font-weight: 100;
+  text-align: center;
+  float: left;
+}
+
+footer a {
+  margin: 15px;
+  float: left;
+}
+
+footer #box2 {
+  float: left;
+  width: 100%;
 }
 
 html {
@@ -109,6 +125,18 @@ h7 {
   font-weight: bold;
 }
 
+/* hr {
+  color: white;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #9a9a9a;
+  border-width: 20px;
+} */
+
 .logohome {
     float: left;
     margin-top: -80px;
@@ -122,6 +150,7 @@ nav a{
   font-size: 3em;
   padding: 10px 20px;
   text-decoration: none;
+  margin-top: 2rem;
 }
 
 nav a:hover {
@@ -151,20 +180,36 @@ p {
 }
 
 section {
-  background-color: none;
+  background-color: white;
   color: #fff;
   height: 60rem;
   margin-top: 1rem;
-  padding: 10rem 0;
+  padding: 1rem 0;
   margin: 4rem;
+
 }
 
 section.cases {
-  width: 50%;
+  background-color: inherit;
+  margin: 1%;
+  float: left;
+  width: 48%;
+  padding-left: 40px;
+  margin-top: 15rem;
 }
 
-section.cases img {
-  width: 100%;
+section.caseimg {
+  background-color: inherit;
+  margin: 1%;
+  float: right;
+  width: 48%;
+}
+
+section.caseimg img {
+  height: 80%;
+  margin-top: 15rem;
+  /* shadow: 20px 200px 8px #888888; */
+
 }
 
 section.cases p {
@@ -174,6 +219,12 @@ section.cases p {
   font-weight: 100;
 }
 
+section.color ul {
+  color: black;
+  font-size: 3.4rem;
+  font-family: 'open sans condensed';
+}
+
 section.compet ul{
   color: #00331D;
   font-size: 3rem;
@@ -181,9 +232,14 @@ section.compet ul{
   font-weight: bold;
 }
 
+section.discovery {
+  height: 80rem;
+}
+
 section.hero {
-padding: 10rem;
-padding-top: 30rem;
+  background-color: inherit;
+  padding: 10rem;
+  padding-top: 25rem;
 }
 
 section.hero img {
@@ -193,14 +249,44 @@ section.hero img {
 }
 
 section.herokeeps {
-padding: 10rem;
-padding-top: 30rem;
+  background-color: none;
+  background-image: url("../portfolio/images/keepsimages/herokeeps.png");
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 40rem;
+  float: left;
+  width: 100%;
+  margin-top: -12px;
+}
+
+section.herokeeps a {
+  margin-left: -30rem;
+}
+
+section.herokeeps img {
+  margin-left: -30rem;
+  margin-top: -30%;
+}
+
+section.herokeeps p {
+  margin-left: -30rem;
+  padding: 2rem;
 }
 
 section.personas ul {
   color: black;
   font-size: 3rem;
   font-family: 'open sans condensed';
+}
+
+section.roles {
+  background-color: inherit;
+  border-style: none;
+  border-color: #9a9a9a;
+  border-width: 1px;
+  height: 80rem;
 }
 
 section.roles ul {
@@ -227,19 +313,51 @@ section.stories ul {
   font-family: 'open sans condensed';
 }
 
-
-/*
-@media screen and (min-width: 760px){
-  .container {
-    width: 70rem;
-  }
+section.testing ul {
+  color: black;
+  font-size: 3.2rem;
+  font-family: 'open sans condensed';
 }
 
-@media screen and (min-width: 1000px){
+
+ /* @media screen and (min-width: 768px){
+  .container {
+    width: 80%;
+  }
+  hr {
+    width: 100%;
+  }
+  #box2 {
+    width: 100%;
+
+}
+
+@media screen and (min-width: 1025px){
   .container {
     background-color: none;
     height: 100vh;
     margin: 0 auto;
-    width: 98rem;
+    width: 90%;
+    padding-bottom: 100px;
+  }
+  #box2 {
+    width: 100%;
+  }
+
+
+  hr {
+    width: 100%;
+  }
+
+  section.cases {
+    margin: 1%;
+    float: left;
+    width: 48%;
+  }
+
+  section.caseimg {
+    margin: 1%;
+    float: right;
+    width: 48%;
   }
 } */
