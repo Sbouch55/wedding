@@ -39,6 +39,15 @@ body {
   margin-top: 10rem;
 }
 
+#box7 {
+  background-color: white;
+  /* border: 1px solid; */
+  /* padding: 14px; */
+  color: #9a9a9a;
+  width: 100%;
+  float: left;
+}
+
 .button {
   background-color: #00331D;
   border: none;
@@ -100,11 +109,6 @@ footer #box6 {
 }
 
 footer #sm {
-/* display: inherit;
- margin-left: 20%;
- margin-right: 20%;
- width: 60%; */
-
  padding: 20px;
  width: 40%;
  text-align: center;
@@ -198,7 +202,7 @@ nav a{
   font-size: 3em;
   padding: 10px 20px;
   text-decoration: none;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 nav a:hover {
@@ -292,7 +296,7 @@ section {
 }
 
 .cases {
-  margin: 1%;
+  /* margin: 1%;
   float: left;
   width: 40%;
   padding-left: 4rem;
@@ -300,23 +304,37 @@ section {
   border: 1px solid;
   padding: 3rem;
   color: #9a9a9a;
-  background-color: inherit;
+  background-color: inherit; */
+
+  border: 1px solid;
+  padding: 20px;
+  color: #9a9a9a;
+  width: 40%;
+  text-align: left;
+  float: left;
+  margin: 5%;
+  background-color: #ffffff;
+  margin-top: 10rem;
 }
 
+.cases .button {
+  margin-left: 2rem;
+
+}
 
 .caseimg {
+
   background-color: inherit;
-  margin: 1rem;
-  float: left;
-  width: 26%;
-  margin-top: 15rem;
-  height: auto;
-  margin-right: 10rem;
+
 }
 
 .caseimg img {
-  /* margin-top: 15rem; */ */
-  /* shadow: 20px 200px 8px #888888; */
+  background-color: inherit;
+  width: 50%;
+  text-align: left;
+  float: right;
+  margin: 0;
+  margin-top: 5rem;
 
 }
 
@@ -330,10 +348,6 @@ section {
 
 .cases h1 {
   padding-left: 2rem;
-}
-
-.cases .button {
-  margin-left: 2rem;
 }
 
 .color {
@@ -409,43 +423,63 @@ section {
 }
 
 .heroabout {
-  padding: 5rem;
-  /* padding-top: 10rem; */
-  width: 45%;
+
+  border: 2px solid;
+  padding: 20px;
+  color: #9a9a9a;
+  width: 50%;
+  text-align: left;
   float: left;
-  margin-left: -12%;
-  margin-right: 0;
-  margin-top: 20%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #9a9a9a;
+  margin: 5%;
+  background-color: #ffffff;
+  margin-top: 4rem;
 }
 
 .heroabout p {
   color: #00331D;
+  font-size: 2.8rem;
+}
+
+.heroabout h1 {
+  padding-left: 4%;
+}
+
+.heroabout2 {
+  background-color: inherit;
 }
 
 .heroabout2 img{
-  width: 40%;
+  width: 30%;
   float: right;
-  margin-top: 20%;
-  background-color: inherit;
+  margin: 4rem;
+
 }
 
 .heroabout3 {
-  height: 2rem;
+  /* height: 2rem;
   padding-top: 3rem;
   float: left;
   width: 50%;
-  margin-top: 2rem;
+  margin-top: 2rem; */
   background-color: inherit;
+}
+
+.heroabout3 img {
+  border: 2px solid;
+  color: #9a9a9a;
+  width: 50%;
+  text-align: left;
+  float: left;
+  background-color: #ffffff;
+  margin-top: 4rem;
+  margin: 1%;
 }
 
 .heroabout4 {
   height: auto;
   padding: 3rem;
   float: right;
-  width: 45%;
+  width: 40%;
   margin-top: 2rem;
   border-style: solid;
   border-width: 2px;
@@ -467,10 +501,10 @@ section {
   border-width: 2px;
   border-color: #9a9a9a;
   text-align: center;
-
+  padding: 2%;
   display: block;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .heroabout5 p {
