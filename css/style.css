@@ -191,7 +191,7 @@ h7 {
 
 .logohome {
     float: left;
-    margin-top: -80px;
+    margin-top: -40px;
 }
 
 nav a{
@@ -214,11 +214,9 @@ nav img {
   display: block;
   float: left;
   text-decoration: none;
-  width:auto;
-  height:20em;
   float: left;
-  width: 200px;
-  height: 260px;
+  width: 120px;
+  height: 120px;
 }
 
 
@@ -296,16 +294,6 @@ section {
 }
 
 .cases {
-  /* margin: 1%;
-  float: left;
-  width: 40%;
-  padding-left: 4rem;
-  margin-top: 15rem;
-  border: 1px solid;
-  padding: 3rem;
-  color: #9a9a9a;
-  background-color: inherit; */
-
   border: 1px solid;
   padding: 20px;
   color: #9a9a9a;
@@ -710,56 +698,78 @@ section {
 }
 
 
-/* .testing ul li {
-  float: left;
-} */
 
 
 
 
+@media(max-width:375px){
 
+  .logohome {
+      float: left;
+      margin-top: -4px;
+    }
 
-
-
-
- /* @media screen and (min-width: 768px){
-  .container {
-    width: 80%;
+  nav a{
+    display: block;
+    color: #00331D;
+    float: right;
+    font-family: "poiret one";
+    font-size: 3em;
+    padding: 4px 20px;
+    margin: 0%;
+    text-decoration: none;
   }
-  hr {
-    width: 100%;
+
+  .hero {
+    padding: 2rem;
+    padding-top: 25rem;
   }
-  #box2 {
+
+  .hero h1{
+    font-size: 6.2rem;
+    text-align: center;
+  }
+
+  .hero h2{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .cases {
+    width: 90%;
+    float: left;
+    margin-top: 4rem;
+  }
+
+  .cases .button {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .caseimg img {
     width: 100%;
+    margin-top: 1rem;
+  }
+
+  .cases p {
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .cases h1 {
+    font-size: 6.2rem;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 2.6rem;
+  }
+
+  footer img {
+    margin: 3%;
+  }
+
 
 }
-
-@media screen and (min-width: 1025px){
-  .container {
-    background-color: none;
-    height: 100vh;
-    margin: 0 auto;
-    width: 90%;
-    padding-bottom: 100px;
-  }
-  #box2 {
-    width: 100%;
-  }
-
-
-  hr {
-    width: 100%;
-  }
-
-  section.cases {
-    margin: 1%;
-    float: left;
-    width: 48%;
-  }
-
-  section.caseimg {
-    margin: 1%;
-    float: right;
-    width: 48%;
-  }
-} */
