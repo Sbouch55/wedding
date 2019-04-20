@@ -701,6 +701,12 @@ section {
 
   h3 {
     font-size: 5rem;
+    padding-top: 1rem;
+  }
+
+  h4 {
+    padding-top: 2rem;
+    font-size: 3.2rem;
   }
 /* homepage */
 
@@ -842,10 +848,12 @@ section {
   margin-left: 15%;
   margin-right: 15%;
   padding-top: 20rem;
+  background-color: inherit;
 }
 
 .heromobile {
   margin: 0;
+  background-color: inherit;
 }
 
 .heromobile img {
@@ -857,6 +865,7 @@ section {
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
+  background-color: inherit;
 }
 
 .herowords p {
@@ -868,7 +877,13 @@ section {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 2rem;
 }
+/* discovery */
+.discovery p {
+  font-size: 2.6rem;
+}
+
 /* roles */
 .roles {
   height: 108rem;
@@ -886,7 +901,117 @@ section {
   margin-top: 4rem;
 }
 
-/* discovery */
+/* competitive analysis */
+.compet a {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.compet p {
+  font-size: 2.2rem;
+}
+
+.compet ul{
+  margin: 3%;
+  width: 94%;
+}
+
+.compet ul li {
+  margin: 3%;
+}
+
+.compet ul img{
+  height: 150px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* survey */
+
+.survey {
+  height: 160rem;
+}
+.survey p {
+  font-size: 2.2rem;
+}
+
+.survey ul{
+  margin: 3%;
+  width: 94%;
+}
+
+.survey ul img{
+  height: 150px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.survey ul li {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+/* personas */
+#mom {
+  display: none;
+}
+
+.personas {
+  height: 176rem;
+}
+
+.personas p {
+  font-size: 2.2rem;
+}
+
+.personas ul {
+  font-size: 2.2rem;
+  width: 92%;
+  margin: 4%;
+}
+
+.personas h7 {
+  font-size: 2.2rem;
+}
+
+.personas ul img {
+  width: 100%;
+}
+
+/* stories */
+
+.stories {
+  height: 84rem;
+}
+
+.stories p {
+  font-size: 2.2rem;
+}
+
+.stories ul li{
+  color: black;
+  font-size: 2.6rem;
+  font-family: 'open sans condensed';
+  padding: 4%;
+  padding-left: 8%;
+}
+
+/* flows */
+
+.flows img{
+  float: left;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.flows a {
+  margin: 3%;
+  margin-left: 6%;
+}
+
 
 
 
