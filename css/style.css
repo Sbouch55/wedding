@@ -245,12 +245,10 @@ p {
   background-color: inherit;
   width: inherit;
 }
-
 .about p {
   color: #00331D;
   padding: 1rem;
 }
-
 .about h1 {
   padding: 1rem;
 } */
@@ -266,7 +264,6 @@ p {
   float: left;
   margin: 10px;
 }
-
 #box4 {
   width: 20%;
   text-align: left;
@@ -782,88 +779,49 @@ section {
 /* about page */
 
 .heroabout {
-
-  border: 2px solid;
-  padding: 20px;
-  color: #9a9a9a;
-  width: 50%;
-  text-align: left;
+  width: 94%;
   float: left;
-  margin: 5%;
-  background-color: #ffffff;
+  margin: 3%;
   margin-top: 4rem;
 }
 
 .heroabout p {
-  color: #00331D;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
+  padding: 2% 5%;
 }
 
 .heroabout h1 {
-  padding-left: 4%;
-}
-
-.heroabout2 {
-  background-color: inherit;
+  text-align: center;
+  font-size: 4.4rem;
 }
 
 .heroabout2 img{
-  width: 30%;
-  float: right;
-  margin: 4rem;
-
-}
-
-.heroabout3 {
-  /* height: 2rem;
-  padding-top: 3rem;
+  width: 98%;
   float: left;
-  width: 50%;
-  margin-top: 2rem; */
-  background-color: inherit;
+  margin: 1%;
+  padding-bottom: 2rem;
+
 }
 
 .heroabout3 img {
-  border: 2px solid;
-  color: #9a9a9a;
-  width: 50%;
-  text-align: left;
-  float: left;
-  background-color: #ffffff;
-  margin-top: 4rem;
-  margin: 1%;
+  width: 100%;
 }
 
 .heroabout4 {
-  height: auto;
-  padding: 3rem;
-  float: right;
-  width: 40%;
+  width: 94%;
   margin-top: 2rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #9a9a9a;
-  text-align: center;
+  margin: 3%;
 }
 
 .heroabout4 p {
-  color: #00331D;
+  font-size: 2.2rem;
 }
 
 .heroabout5 {
-  height: auto;
-  /* padding-top: 3rem; */
-  float: left;
-  width: 45%;
-  margin-top: 2rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #9a9a9a;
-  text-align: center;
+  width: 80%;
   padding: 2%;
-  display: block;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .heroabout5 p {
@@ -873,6 +831,10 @@ section {
 }
 @media(min-width:415px){
 #mobimg {
+  display: none;
+}
+
+#mobdog {
   display: none;
 }
 }
