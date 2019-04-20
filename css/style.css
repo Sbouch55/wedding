@@ -14,7 +14,7 @@
 } */
 
 body {
- background-image: url("../portfolio/Images/green6.jpg");
+ background-image: url("../images/green6.jpg");
 }
 
 
@@ -513,7 +513,7 @@ section {
 
 .herokeeps {
   background-color: inherit;
-  background-image: url("../portfolio/images/keepsimages/herokeeps.png");
+  background-image: url("../images/keepsimages/herokeeps.png");
   height: 50rem;
   background-repeat: no-repeat;
   background-size: cover;
