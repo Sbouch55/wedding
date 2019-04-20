@@ -830,35 +830,46 @@ section {
 
 /* keeps page */
 
-.herokeeps {
-  background-color: inherit;
-  background-image: url("../images/keepsimages/herokeeps.png");
-  height: 50rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 40rem;
-  float: left;
+#deskkhero {
+  display: none;
+}
+.mlogo {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 20rem;
+}
+
+.heromobile {
+  margin: 0;
+}
+
+.heromobile img {
   width: 100%;
-  margin-top: -12px;
-  margin: auto;
 }
 
-.herokeeps a {
-  margin-left: -30rem;
+.herowords {
+  float: left;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
-.herokeeps img {
-  margin-left: -30rem;
-  margin-top: -30%;
+.herowords p {
+  text-align: center;
 }
 
-.herokeeps p {
-  margin-left: -30rem;
-  padding-bottom: 2rem;
+.herowords a {
+  float: left;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 }
+
+
+
 @media(min-width:415px){
 #mobimg {
   display: none;
@@ -871,4 +882,9 @@ section {
 #mobme {
   display: none;
 }
+
+#moblogo {
+  display: none;
+}
+
 }
