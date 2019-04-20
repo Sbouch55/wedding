@@ -700,9 +700,9 @@ section {
 
 
 
-
-
 @media(max-width:414px){
+
+/* homepage */
 
   .logohome {
       float: left;
@@ -752,6 +752,10 @@ section {
     margin-top: 1rem;
   }
 
+  #deskimg {
+    display: none;
+  }
+
   .cases p {
     font-size: 2.6rem;
     text-align: center;
@@ -763,6 +767,10 @@ section {
     text-align: center;
   }
 
+  #mobimg {
+    display: block;
+  }
+
   footer p {
     font-size: 2.6rem;
   }
@@ -771,5 +779,100 @@ section {
     margin: 3%;
   }
 
+/* about page */
 
+.heroabout {
+
+  border: 2px solid;
+  padding: 20px;
+  color: #9a9a9a;
+  width: 50%;
+  text-align: left;
+  float: left;
+  margin: 5%;
+  background-color: #ffffff;
+  margin-top: 4rem;
+}
+
+.heroabout p {
+  color: #00331D;
+  font-size: 2.8rem;
+}
+
+.heroabout h1 {
+  padding-left: 4%;
+}
+
+.heroabout2 {
+  background-color: inherit;
+}
+
+.heroabout2 img{
+  width: 30%;
+  float: right;
+  margin: 4rem;
+
+}
+
+.heroabout3 {
+  /* height: 2rem;
+  padding-top: 3rem;
+  float: left;
+  width: 50%;
+  margin-top: 2rem; */
+  background-color: inherit;
+}
+
+.heroabout3 img {
+  border: 2px solid;
+  color: #9a9a9a;
+  width: 50%;
+  text-align: left;
+  float: left;
+  background-color: #ffffff;
+  margin-top: 4rem;
+  margin: 1%;
+}
+
+.heroabout4 {
+  height: auto;
+  padding: 3rem;
+  float: right;
+  width: 40%;
+  margin-top: 2rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #9a9a9a;
+  text-align: center;
+}
+
+.heroabout4 p {
+  color: #00331D;
+}
+
+.heroabout5 {
+  height: auto;
+  /* padding-top: 3rem; */
+  float: left;
+  width: 45%;
+  margin-top: 2rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #9a9a9a;
+  text-align: center;
+  padding: 2%;
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.heroabout5 p {
+   color: #00331D;
+}
+
+}
+@media(min-width:415px){
+#mobimg {
+  display: none;
+}
 }
