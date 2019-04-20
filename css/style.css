@@ -699,6 +699,9 @@ section {
 
 @media(max-width:414px){
 
+  h3 {
+    font-size: 5rem;
+  }
 /* homepage */
 
   .logohome {
@@ -830,6 +833,7 @@ section {
 
 /* keeps page */
 
+/* hero */
 #deskkhero {
   display: none;
 }
@@ -865,6 +869,26 @@ section {
   margin-left: 25%;
   margin-right: 25%;
 }
+/* roles */
+.roles {
+  height: 108rem;
+}
+
+#box1 {
+  border: 1px solid;
+  padding: 20px;
+  color: #9a9a9a;
+  width: 98%;
+  text-align: center;
+  float: right;
+  margin: 1%;
+  background-color: #ffffff;
+  margin-top: 4rem;
+}
+
+/* discovery */
+
+
 
 }
 
