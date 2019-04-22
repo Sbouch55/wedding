@@ -438,7 +438,8 @@ section {
 .heroabout2 img{
   width: 30%;
   float: right;
-  margin: 4rem;
+  margin: 4%;
+  margin-top: 16rem;
 
 }
 
